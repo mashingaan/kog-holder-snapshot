@@ -1,0 +1,23 @@
+{
+  "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+  "slot": 461652498,
+  "total": "10848139743538",
+  "holders": [
+    {
+      "rank": 1,
+      "owner": "9tXiuRRw7kbejLhZXtxDxYs2REe43uH2e7k1kocgdM9B",
+      "amount": "9268337098439"
+    },
+    {
+      "rank": 2,
+      "owner": "DXK4yMpigbTSqv33nJk1tJucXB4E3rDmTXn3yZmiFAXt",
+      "amount": "1555055418304"
+    },
+    {
+      "rank": 3,
+      "owner": "Ddk5afKzmMLcCoh4simPfAddvcU5LMKtMPprY7LysHv4",
+      "amount": "24747226795"
+    }
+  ],
+  "hash": "30c2aee8bf2394f66401436113a546a5af09332a54454e1ab2992b3ad05f535b"
+}

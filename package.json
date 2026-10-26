@@ -1,0 +1,11 @@
+{
+  "name": "kog-holder-snapshot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "exports": "./src/index.js",
+  "bin": { "kog-snapshot": "./src/cli.js" },
+  "scripts": { "test": "node --test test/*.test.js", "test:mutations": "node test/mutations.mjs" }
+}

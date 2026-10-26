@@ -1,0 +1,187 @@
+{
+  "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+  "source": "https://api.mainnet-beta.solana.com",
+  "recorded_at": "2026-10-26T11:47:08.364Z",
+  "signature": "27JMr8HTjSFjS9mXZvXGVECm4X4ESJxFaEy9NgoVhCt2FBGxC6ZZDiDMR2ewVw14RhYfFxDggb4SBDddmqZiKMuQ",
+  "addresses": [
+    "DKqv38qRPc6zBVFsF9uLUzbxT88pnxmAa5pyZ1XdU1RD",
+    "DXK4yMpigbTSqv33nJk1tJucXB4E3rDmTXn3yZmiFAXt",
+    "Ddk5afKzmMLcCoh4simPfAddvcU5LMKtMPprY7LysHv4",
+    "EeF6oBy6AQiBJoRx5xiRNxa6cmpQE3ayVagj28QFZuyg"
+  ],
+  "accounts": {
+    "jsonrpc": "2.0",
+    "result": {
+      "context": {
+        "apiVersion": "4.3.2",
+        "slot": 461652498
+      },
+      "value": [
+        {
+          "data": {
+            "parsed": {
+              "info": {
+                "extensions": [
+                  {
+                    "extension": "immutableOwner"
+                  },
+                  {
+                    "extension": "transferFeeAmount",
+                    "state": {
+                      "withheldAmount": 0
+                    }
+                  },
+                  {
+                    "extension": "transferHookAccount",
+                    "state": {
+                      "transferring": false
+                    }
+                  }
+                ],
+                "isNative": false,
+                "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+                "owner": "6hEnYQrLDVg7h9mYd6NVBwDh3qd7FuZbMaKBntwkx4Sd",
+                "state": "initialized",
+                "tokenAmount": {
+                  "amount": "0",
+                  "decimals": 6,
+                  "uiAmount": 0,
+                  "uiAmountString": "0"
+                }
+              },
+              "type": "account"
+            },
+            "program": "spl-token-2022",
+            "space": 187
+          },
+          "executable": false,
+          "lamports": 1600200,
+          "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "rentEpoch": 18446744073709552000,
+          "space": 187
+        },
+        {
+          "data": {
+            "parsed": {
+              "info": {
+                "extensions": [
+                  {
+                    "extension": "transferFeeAmount",
+                    "state": {
+                      "withheldAmount": 0
+                    }
+                  },
+                  {
+                    "extension": "transferHookAccount",
+                    "state": {
+                      "transferring": false
+                    }
+                  }
+                ],
+                "isNative": false,
+                "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+                "owner": "DXK4yMpigbTSqv33nJk1tJucXB4E3rDmTXn3yZmiFAXt",
+                "state": "initialized",
+                "tokenAmount": {
+                  "amount": "1555055418304",
+                  "decimals": 6,
+                  "uiAmount": 1555055.418304,
+                  "uiAmountString": "1555055.418304"
+                }
+              },
+              "type": "account"
+            },
+            "program": "spl-token-2022",
+            "space": 183
+          },
+          "executable": false,
+          "lamports": 1579880,
+          "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "rentEpoch": 18446744073709552000,
+          "space": 183
+        },
+        {
+          "data": {
+            "parsed": {
+              "info": {
+                "extensions": [
+                  {
+                    "extension": "transferFeeAmount",
+                    "state": {
+                      "withheldAmount": 0
+                    }
+                  },
+                  {
+                    "extension": "transferHookAccount",
+                    "state": {
+                      "transferring": false
+                    }
+                  }
+                ],
+                "isNative": false,
+                "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+                "owner": "Ddk5afKzmMLcCoh4simPfAddvcU5LMKtMPprY7LysHv4",
+                "state": "initialized",
+                "tokenAmount": {
+                  "amount": "24747226795",
+                  "decimals": 6,
+                  "uiAmount": 24747.226795,
+                  "uiAmountString": "24747.226795"
+                }
+              },
+              "type": "account"
+            },
+            "program": "spl-token-2022",
+            "space": 183
+          },
+          "executable": false,
+          "lamports": 1579880,
+          "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "rentEpoch": 18446744073709552000,
+          "space": 183
+        },
+        {
+          "data": {
+            "parsed": {
+              "info": {
+                "extensions": [
+                  {
+                    "extension": "transferFeeAmount",
+                    "state": {
+                      "withheldAmount": 0
+                    }
+                  },
+                  {
+                    "extension": "transferHookAccount",
+                    "state": {
+                      "transferring": false
+                    }
+                  }
+                ],
+                "isNative": false,
+                "mint": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+                "owner": "9tXiuRRw7kbejLhZXtxDxYs2REe43uH2e7k1kocgdM9B",
+                "state": "initialized",
+                "tokenAmount": {
+                  "amount": "9268337098439",
+                  "decimals": 6,
+                  "uiAmount": 9268337.098439,
+                  "uiAmountString": "9268337.098439"
+                }
+              },
+              "type": "account"
+            },
+            "program": "spl-token-2022",
+            "space": 183
+          },
+          "executable": false,
+          "lamports": 2164564,
+          "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "rentEpoch": 18446744073709552000,
+          "space": 183
+        }
+      ]
+    },
+    "id": 1
+  }
+}
