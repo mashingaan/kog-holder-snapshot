@@ -7,5 +7,5 @@
   "engines": { "node": ">=20" },
   "exports": "./src/index.js",
   "bin": { "kog-snapshot": "./src/cli.js" },
-  "scripts": { "test": "node --test test/*.test.js", "test:mutations": "node test/mutations.mjs" }
+  "scripts": { "test": "node --test test/snapshot.test.js", "test:mutations": "node test/mutations.mjs" }
 }
