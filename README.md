@@ -22,7 +22,7 @@ Exports from `src/index.js`: buildSnapshot and fetchAccounts. The pure core uses
 - A6: two exact injected RPC calls, minimum context, minContextSlot, safe failures/timeouts, offline CLI, file output/save and bad inputs.
 - A7: genuine PYUSD Token-2022 account recording and committed fixed expected snapshot.
 
-Hosted Actions runs tests and eight targeted planted mutations on Node 20/22 and Linux/Windows. Synthetic fixtures deliberately cover extensions and adversarial cases that are not all represented in the real recording.
+Hosted Actions runs tests and nine targeted planted mutations on Node 20/22 and Linux/Windows. Synthetic fixtures deliberately cover extensions and adversarial cases that are not all represented in the real recording. A token-account lookalike owned by another program is ignored. Thirty seeded permutations of 80 exact large balances check order invariance beyond the small hand-written examples. Mutation failures must reach assertions rather than fail during module loading or parsing.
 
 ## Real recording provenance and limits
 

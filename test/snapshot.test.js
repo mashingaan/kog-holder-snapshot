@@ -99,3 +99,29 @@ test('Malformed amount rows ignored, invalid controls fail explicitly',()=>{
  assert.equal(buildSnapshot(options(rows)).total,'0')
  for(const override of [{top:-1},{top:1.5},{slot:Infinity},{accounts:{}},{exclusions:{}}]) assert.throws(()=>buildSnapshot({...options([]),...override}))
 })
+
+test('A1 foreign program lookalikes cannot contribute fake token balances',()=>{
+ const foreign=account('fake','Attacker','99999999999999999')
+ foreign.account.owner='NotATokenProgram'
+ assert.equal(buildSnapshot(options([foreign,account('real','Alice','2')])).total,'2')
+})
+test('A4 deterministic generated permutations preserve exact totals and hashes',()=>{
+ let seed=17
+ const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0
+  return seed}
+ const accounts=Array.from({length:80},(_,i)=>account('account'+i,'owner'+(i%13),String(BigInt(random())*9007199254740993n)))
+ const expected=buildSnapshot({...options(accounts),top:7})
+ let round=0
+ while(round++<30) {
+  const copy=[...accounts]
+  let i=copy.length-1
+  while(i>0) {
+   const j=random()%(i+1)
+   const swap=copy[i]
+   copy[i]=copy[j]
+   copy[j]=swap
+   i--
+  }
+  assert.deepEqual(buildSnapshot({...options(copy),top:7}),expected)
+ }
+})

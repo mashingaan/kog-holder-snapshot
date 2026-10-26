@@ -18,6 +18,7 @@ export function buildSnapshot({mint,slot,accounts,exclusions={owners:[],token_ac
  const excludedAccounts=new Set(exclusions.token_accounts)
  const balances=new Map()
  for(const item of accounts) {
+  if(!TOKEN_PROGRAMS.includes(item?.account?.owner)) continue
   const parsed=item?.account?.data?.parsed
   const info=parsed?.info
   if(parsed?.type!=='account' || info?.mint!==mint || typeof info.owner!=='string' || !info.owner || excludedOwners.has(info.owner) || excludedAccounts.has(item.pubkey)) continue
